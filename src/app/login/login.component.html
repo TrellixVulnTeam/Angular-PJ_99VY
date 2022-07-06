@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<div class="container">
+  <h1>로그인</h1>
+
+  <input type='text' [(ngModel)]="id" class='form-control'/>
+  <br/><h3>{{id}}</h3>
+  <input type='text'[(ngModel)]="password" class='form-control' />
+  <br/>
+  <button type="submit" class='btn btn-success' (click)='login()'>LogIn</button>
+
+</div>
